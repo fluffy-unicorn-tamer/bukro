@@ -22,7 +22,7 @@ export class MitgliedService {
         nachname: body.nachname,
         geburtsdatum: body.geburtsdatum,
         iban: body.iban,
-        hausnummer: body.hausenummer,
+        hausnummer: body.hausnummer,
         strasse: body.strasse,
       },
     });

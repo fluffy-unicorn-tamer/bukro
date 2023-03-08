@@ -3,6 +3,6 @@ export type Mitglied = {
   nachname: string;
   geburtsdatum: string;
   strasse: string;
-  hausenummer: number;
+  hausnummer: number;
   iban: string;
 };
