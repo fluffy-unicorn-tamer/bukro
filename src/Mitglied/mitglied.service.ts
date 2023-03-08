@@ -20,7 +20,7 @@ export class MitgliedService {
       data: {
         name: body.name,
         nachname: body.nachname,
-        geburtsdatum: 'test',
+        geburtsdatum: body.geburtsdatum,
         iban: body.iban,
         hausnummer: body.hausenummer,
         strasse: body.strasse,
